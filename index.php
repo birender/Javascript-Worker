@@ -16,7 +16,6 @@
     var Workers = new Worker("worker.js");
     Workers.onmessage = function(event) {
         console.log( event );
-        //console.log( resultArr );
     };
   console.log(resultArr);
      
